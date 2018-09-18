@@ -266,3 +266,227 @@ body {
 .noscript-submit:hover {
     color: #fff;
 }
+.page-section {
+ padding:40px 0;
+ text-align:center
+}
+.page-section h2 {
+ font-size:1rem;
+ line-height:1.5
+}
+@media screen and (min-width:760px) {
+ .page-section h2 {
+  font-size:1.33333rem
+ }
+}
+@media screen and (min-width:1000px) {
+ .page-section h2 {
+  font-size:2rem
+ }
+}
+.page-section h2.section-title {
+ padding-top:30px;
+ position:relative
+}
+.page-section h2.section-title:before {
+ background:#000;
+ border-radius:5px;
+ content:'';
+ height:5px;
+ left:50%;
+ margin-left:-32px;
+ position:absolute;
+ top:0;
+ width:64px
+}
+.page-section h3 {
+ font-size:1rem
+}
+@media screen and (min-width:1000px) {
+ .page-section h3 {
+  font-size:1.33333rem
+ }
+}
+.page-section p {
+ line-height:1.8
+}
+@media screen and (min-width:760px) {
+ .page-section {
+  padding:60px 0
+ }
+}
+@media screen and (min-width:1000px) {
+ .page-section {
+  padding:80px 0
+ }
+}
+.main-header-section h1 {
+    background-size:90px 90px;
+    font-size:1.33333rem;
+    background: url("/static/img/home/logo-quantum.png") no-repeat top center;
+    background-size: 90px 90px;
+    color:#000;
+    margin:0 auto 10px;
+    padding-top:110px
+}
+@media only screen and (-webkit-min-device-pixel-ratio:1.5),only screen and (min-resolution:1.5dppx),only screen and (min-resolution:144dpi) {
+ .main-header-section h1 {
+  background-image:url("/static/img/home/logo-quantum-high-res.png");
+  background-size:90px 90px
+ }
+}
+@media screen and (min-width:760px) {
+ .main-header-section h1 {
+  font-size:2rem
+ }
+}
+@media screen and (min-width:1000px) {
+ .main-header-section h1 {
+  font-size:2.66667rem
+ }
+}
+.main-header-section h2 {
+ font-size:1rem;
+ margin-top:20px
+}
+@media screen and (min-width:760px) {
+ .main-header-section h2 {
+  font-size:1.33333rem
+ }
+}
+@media screen and (min-width:1000px) {
+ .main-header-section h2 {
+  font-size:2rem
+ }
+}
+.main-header-section h3 {
+ font-size:1rem
+}
+@media screen and (min-width:760px) {
+ .main-header-section h3 {
+  font-size:1.33333rem
+ }
+}
+@media screen and (min-width:1000px) {
+ .main-header-section h3 {
+  font-size:2rem
+ }
+}
+.main-header-section .download-button {
+ margin:40px 0
+}
+.main-header-section .fx-privacy-link a {
+ color:#000
+}
+@media screen and (min-width:760px) {
+ .main-header-section {
+  min-height:550px;
+  text-align:left;
+  padding-top:40px
+ }
+ .main-header-section h1 {
+  background-position:left center;
+  margin:-40px 0 10px;
+  padding:40px 0 40px 110px
+ }
+ .main-header-section .header-content {
+  float:left;
+  width:55%
+ }
+ .main-header-section .header-image {
+  margin-bottom:0;
+  /*position:absolute;*/
+  right:0;
+  width:45%
+ }
+ .main-header-section .header-image img {
+  display:block;
+  height:auto;
+  max-width:none;
+  width:903px
+ }
+}
+@media screen and (min-width:1400px) {
+ .main-header-section {
+  padding-top:80px
+ }
+ .main-header-section .header-content {
+  width:43%
+ }
+ .main-header-section .header-image {
+  width:57%
+ }
+}
+@media screen and (min-width:760px) {
+ html[dir=rtl] .main-header-section h1 {
+  background-position:right center;
+  padding:40px 110px 40px 0
+ }
+ html[dir=rtl] .main-header-section .header-content {
+  float:right;
+  text-align:right
+ }
+ html[dir=rtl] .main-header-section .header-image {
+  left:0;
+  right:auto
+ }
+}
+.content {
+    width:auto;
+    box-sizing: border-box;
+    margin: 0 auto;
+    min-width: 300px;
+}
+@media screen and (min-width:760px) {
+ .content {
+  width:auto;
+  padding:20px 60px
+ }
+}
+@media screen and (min-width:1000px) {
+ .content {
+  width:auto;
+  padding:20px 85px
+ }
+}
+@media screen and (min-width:1400px) {
+ .content {
+  width:auto;
+  max-width:1420px
+ }
+}
+.download-button {
+ display:inline-block;
+ vertical-align:top
+}
+ul.download-list {
+ list-style-type:none;
+ margin-bottom:10px
+}
+ul.download-list li {
+ margin-left:0
+}
+ul.download-list strong {
+ font-weight:700
+}
+.btn {
+    font-size: .88889rem;
+    font-family: "Open Sans",X-LocaleSpecific,sans-serif;
+    background: 0 0;
+    border-radius: 100px;
+    border: 2px solid;
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 700;
+    padding: .9em 40px;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    text-shadow: none;
+    transition: background-color .1s ease-in-out,border-color .1s ease-in-out;
+}
+.btn-success {
+    background-color: #16da00;
+    border-color: #16da00;
+    color: #fff;
+}

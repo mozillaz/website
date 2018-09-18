@@ -1,1 +1,27 @@
 {% extends 'web/base.html' %}
+{% load i18n static %}
+{% block header %}
+<header class="page-section main-header-section">
+    <div class="content row">
+      <div class="header-content">
+        <h1>Firefox Quantum</h1>
+        <h2>{% trans "Meet the new Firefox." %}</h2>
+        <h3>{% trans "Faster, Better, Perfect Privacy." %}</h3>
+        <div id="download-intro" class="download-button">
+          <ul class="download-list">
+              <li class="general">
+                <a class="download-link btn btn-success" href="https://www.mozilla.org/az/firefox/download/thanks/" data-link-type="download" data-display-name="Download Firefox">
+                  <strong class="download-title">
+                      {% trans "Download Now" %}
+                  </strong>
+                </a>
+              </li>
+          </ul>
+        </div>
+      </div>
+      <div class="header-image">
+        <img class="" src="{% static 'img/home/firefox-desktop.png' %}" srcset="{% static 'img/home/firefox-desktop.high.png' %} 1.5x" alt="" width="903" height="509">
+      </div>
+    </div>
+</header>
+{% endblock %}
