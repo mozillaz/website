@@ -1,0 +1,167 @@
+# Website Translations.
+# Copyright (C) 2018 Mozilla Azerbaijan
+# This file is distributed under the same license as the PACKAGE package.
+# Emin Mastizada <emin@linux.com>, 2018.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: 1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-09-18 10:36+0400\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Emin Mastizada <emin@linux.com>\n"
+"Language-Team: English <LL@li.org>\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: mozillaz/settings.py:80
+msgid "Azerbaijani"
+msgstr ""
+
+#: mozillaz/settings.py:81
+msgid "English"
+msgstr ""
+
+#: mozillaz/urls.py:18
+msgid "Mozillaz Admin"
+msgstr ""
+
+#: mozillaz/urls.py:19
+msgid "Mozillaz"
+msgstr ""
+
+#: mozillaz/urls.py:20
+msgid "Mozillaz Administration"
+msgstr ""
+
+#: user/models.py:10
+msgid "Email"
+msgstr ""
+
+#: user/models.py:12
+msgid "A user with that email address already exists."
+msgstr ""
+
+#: user/models.py:15
+msgid "Added"
+msgstr ""
+
+#: user/models.py:29
+msgid "User"
+msgstr ""
+
+#: user/models.py:30
+msgid "Users"
+msgstr ""
+
+#: web/templates/web/base.html:24 web/templates/web/base.html:29
+#: web/templates/web/base.html:33 web/templates/web/base.html:57
+#: web/templates/web/base.html:103 web/templates/web/base.html:107
+msgid "Mozilla Azerbaijan"
+msgstr ""
+
+#: web/templates/web/base.html:25
+msgid ""
+"Mozilla Azerbaijan - Local Mozilla Community. Get news, tips, tutorials, "
+"updates and help in local language."
+msgstr ""
+
+#: web/templates/web/base.html:58
+msgid "Toggle navigation"
+msgstr ""
+
+#: web/templates/web/base.html:69 web/templates/web/base.html:125
+msgid "Products"
+msgstr ""
+
+#: web/templates/web/base.html:72 web/templates/web/base.html:111
+msgid "Blog"
+msgstr ""
+
+#: web/templates/web/base.html:75
+msgid "Support"
+msgstr ""
+
+#: web/templates/web/base.html:87
+msgid "Download Firefox"
+msgstr ""
+
+#: web/templates/web/base.html:110
+msgid "About"
+msgstr ""
+
+#: web/templates/web/base.html:112
+msgid "Contact Us"
+msgstr ""
+
+#: web/templates/web/base.html:113
+msgid "Donate"
+msgstr ""
+
+#: web/templates/web/base.html:114
+msgid "Contribute to this site"
+msgstr ""
+
+#: web/templates/web/base.html:117
+msgid "Mozilla Azerbaijan in Twitter"
+msgstr ""
+
+#: web/templates/web/base.html:118
+msgid "Mozilla Azerbaijan in Facebook"
+msgstr ""
+
+#: web/templates/web/base.html:131
+msgid "Mozilla Developer Network"
+msgstr ""
+
+#: web/templates/web/base.html:132
+msgid "Firefox for Developers"
+msgstr ""
+
+#: web/templates/web/base.html:135
+msgid "Mozilla Localization in Twitter"
+msgstr ""
+
+#: web/templates/web/base.html:136
+msgid "AzerDict Dictionary"
+msgstr ""
+
+#: web/templates/web/base.html:145
+msgid "Privacy"
+msgstr ""
+
+#: web/templates/web/base.html:146
+msgid "Cookies"
+msgstr ""
+
+#: web/templates/web/base.html:149
+msgid ""
+"Portions of this content are ©1998–2018 by individual mozilla.org "
+"contributors. Content available under a <a rel=\"license\" href=\"https://"
+"www.mozilla.org/en-US/foundation/licensing/website-content/\">Creative "
+"Commons license</a>."
+msgstr ""
+
+#: web/templates/web/base.html:156
+msgid "Language"
+msgstr ""
+
+#: web/templates/web/base.html:161
+msgid "Go"
+msgstr ""
+
+#: web/templates/web/index.html:8
+msgid "Meet the new Firefox."
+msgstr ""
+
+#: web/templates/web/index.html:9
+msgid "Faster, Better, Perfect Privacy."
+msgstr ""
+
+#: web/templates/web/index.html:15
+msgid "Download Now"
+msgstr ""
