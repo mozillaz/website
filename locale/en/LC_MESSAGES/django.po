@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: 1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-09-18 10:36+0400\n"
+"POT-Creation-Date: 2018-09-18 10:50+0400\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Emin Mastizada <emin@linux.com>\n"
 "Language-Team: English <LL@li.org>\n"
@@ -87,7 +87,7 @@ msgid "Support"
 msgstr ""
 
 #: web/templates/web/base.html:87
-msgid "Download Firefox"
+msgid "Get Firefox"
 msgstr ""
 
 #: web/templates/web/base.html:110
